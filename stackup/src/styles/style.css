@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-tomato: #ff6a6a;
+}
+
+.nav-bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid 1px black; */
+    position: absolute;
+    top: 0;
+    height: 72px;
+    width: 100vw;
+}
+
+.logo {
+    color: var(--primary-tomato);
+    cursor: pointer;
+}
+
+.right-nav {
+    order: 1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    align-items: center;
+}
+
+.nav-links>a {
+    color: var(--primary-tomato);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.nav-links>a:hover {
+    background-color: #ff6a6a20;
+}
+
+
+.signUp-btn {
+    background: none var(--primary-tomato);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+    padding: 3px;
+    cursor: pointer;
+    height: 32px;
+    width: 119px;
+    border-radius: 20px;
+}
+
+.main-hero {
+    height: 80vh;
+    width: 100vw;
+    background-image: url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F1ba6ce27946d04daf60a668665de63d2.cdn.bubble.io%2Ff1649702012344x482678199002355840%2FHero%25402-1698x887.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-hero>h1 {
+    font-size: 80px;
+    color: white;
+    margin: 5px;
+
+}
+
+.main-hero>p {
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+
+}
+
+.community {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.community>h4 {
+color: black;
+}
+.community>.medias {
+    display: flex;
+    flex-direction: row;
+}
