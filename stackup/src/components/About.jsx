@@ -4,7 +4,8 @@ function About() {
     return (
         <div>
             <div className="container">
-                <div className="image-card"></div>
+                <div className="image-card" style={{background:'url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F1ba6ce27946d04daf60a668665de63d2.cdn.bubble.io%2Ff1649400736771x480543354165974200%2F1_Learn2.png?w=384&h=524&auto=compress&fit=crop&dpr=1") center center / cover no-repeat rgba(255, 255, 255, 0)',overflow:'visible'}}>
+                </div>
                 <div className="content">
                     <div className="content-header">
                         <div className="order"><h1>1</h1></div>
@@ -36,11 +37,11 @@ function About() {
                     </div>
                     <button className='btn'>Veiw Campaigns</button>
                 </div>
-                <div className="image-card"></div>
+                <div className="image-card" style={{background:'url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F1ba6ce27946d04daf60a668665de63d2.cdn.bubble.io%2Ff1649189759808x696246880702599700%2F2_Earn.png?w=384&h=623&auto=compress&fit=crop&dpr=1") center center/ cover no-repeat'}}></div>
 
             </div>
             <div className="container">
-                <div className="image-card"></div>
+                <div className="image-card" style={{background:'url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F1ba6ce27946d04daf60a668665de63d2.cdn.bubble.io%2Ff1649190013938x761286262077307800%2F3_Connect.png?w=384&h=519&auto=compress&fit=crop&dpr=1") center center/ cover no-repeat'}}></div>
                 <div className="content">
                     <div className="content-header">
                         <div className="order"><h1>3</h1></div>
@@ -73,11 +74,11 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="image-card"></div>
+                <div className="image-card" style={{background:'url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F1ba6ce27946d04daf60a668665de63d2.cdn.bubble.io%2Ff1649401881990x707267468126102000%2F4_Events2.png?w=384&h=568&auto=compress&fit=crop&dpr=1") center center/ cover no-repeat',overflow:'visible'}}></div>
 
             </div>
             <div className="container">
-                <div className="image-card"></div>
+                <div className="image-card" style={{background:'url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F1ba6ce27946d04daf60a668665de63d2.cdn.bubble.io%2Ff1649404117467x951059865576929300%2F5_Levelup2.png?w=384&h=477&auto=compress&fit=crop&dpr=1") center center/ cover no-repeat'}}></div>
                 <div className="content">
                     <div className="content-header">
                         <div className="order"><h1>5</h1></div>
@@ -113,6 +114,28 @@ function About() {
                             <li>5 Quests</li>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+
+            <div className="highlights">
+                <div className="highlight-header">
+                    <h1>How to Sign Up</h1>
+                    <p>Let's get you started ser!
+                    </p>
+                </div>
+                <div className="highlight-content">
+                    <div className="content">
+                        <h3>Join our Discord Server</h3>
+                        <p>Join StackUp's Discord. Go to the #rules channel, read and accept our rules.</p>
+                    </div>
+                    <div className="content">
+                        <h3>Get Early Access Code</h3>
+                        <p>After accepting our rules, go to the #early-access-code channel to get your Early Access Code!</p>
+                    </div>
+                    <div className="content">
+                        <h3>Sign Up on StackUp!</h3>
+                        <p>Click on the “Sign up” button and use the Early Access Code to sign up!</p>
                     </div>
                 </div>
             </div>

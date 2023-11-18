@@ -9,7 +9,7 @@ function Navbar() {
                 <Navlinks name="Home" />
                 <Navlinks name="Earn" />
                 <Navlinks name="Help" />
-                <Navlinks name="Login" />
+                <Navlinks name="Login"/>
                 <button className='signUp-btn'>SignUp</button>
             </div>
         </div>
