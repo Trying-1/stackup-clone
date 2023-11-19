@@ -287,7 +287,7 @@
     gap: 15px;
     backdrop-filter: blur(50px);
     z-index: 5;
-    pointer-events: none;
+
 }
 
 .popup .popup-form {
@@ -304,9 +304,14 @@
 .popup-form .forgot-password {
     color: var(--primary-tomato);
 }
-
+.popup-form label{
+    color: darkslategray;
+    font-weight: 500;
+}
 .popup-form .input-field {
+    letter-spacing: 2px;
     height: 30px;
+    border-radius: 5px;
     border: none;
     outline: none;
     padding: 20px;
@@ -334,8 +339,24 @@
     outline: none;
     height: 30px;
     width: 115px;
-    left:100px;
+    left: 100px;
+    color: white;
+    font-weight: 600;
     position: relative;
     border-radius: 15px;
     background-color: var(--primary-tomato);
+}
+
+.popup-close-btn {
+    color: var(--primary-tomato);
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: 800;
+    background: none;
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }

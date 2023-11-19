@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: white;
+    --primary-tomato: #ff6a6a;
+}
+
+.sidemenu {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 230px;
+    border: 1px solid gray;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidemenu .logo {
+    color: var(--primary-tomato);
+}
+
+.sidemenu .profile-info-box {
+    height: 62px;
+    width: 186px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 106, 106, 0.4);
+
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    font-style: italic;
+    letter-spacing: 0.2px;
+}
+
+.sidemenu .navlinks1 {
+    margin-top: 25px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: -30px;
+}
+
+.sidemenu .navlinks2 {
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    bottom: 60px;
+}

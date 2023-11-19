@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 function Navlinks(props) {
   const [isPopupOpen, setPopupOpen] = useState(false)
   const openPopup = () => {
+
     setPopupOpen(true)
   }
   const closePopup = (e) => {
@@ -28,10 +29,10 @@ function Navlinks(props) {
             <button className="login">Log in</button>
             <p>Don't have an account? <a href="">Sign Up</a> </p>
           </form>
-          <button onClick={closePopup}>close</button>
+          <button className='popup-close-btn' onClick={closePopup}>X</button>
         </div>
       )}
-      <a href="#" onClick={openPopup}>{props.name} </a>
+      <a href="#" onClick={() => { if (props.name === "Login") { openPopup() } }}>{props.name} </a>
 
     </div>
   )
