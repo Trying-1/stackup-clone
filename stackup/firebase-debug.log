@@ -1,0 +1,61 @@
+[debug] [2023-11-20T12:47:58.462Z] ----------------------------------------------------------------------
+[debug] [2023-11-20T12:47:58.464Z] Command:       /home/gitpod/.nvm/versions/node/v20.9.0/bin/node /home/gitpod/.nvm/versions/node/v20.9.0/bin/firebase init
+[debug] [2023-11-20T12:47:58.465Z] CLI Version:   12.9.1
+[debug] [2023-11-20T12:47:58.465Z] Platform:      linux
+[debug] [2023-11-20T12:47:58.466Z] Node Version:  v20.9.0
+[debug] [2023-11-20T12:47:58.466Z] Time:          Mon Nov 20 2023 12:47:58 GMT+0000 (Coordinated Universal Time)
+[debug] [2023-11-20T12:47:58.466Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-20T12:47:58.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-20T12:47:58.558Z] > authorizing via signed-in user (tryingbait@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspace/stackup-clone/stackup
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-20T12:48:02.395Z] Using project from CLI flag: stackup-clone-6bab8
+[debug] [2023-11-20T12:48:02.397Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/stackup-clone-6bab8 [none]
+[debug] [2023-11-20T12:48:02.551Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/stackup-clone-6bab8 200
+[debug] [2023-11-20T12:48:02.552Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/stackup-clone-6bab8 {"projectId":"stackup-clone-6bab8","projectNumber":"937299308785","displayName":"stackup-clone","name":"projects/stackup-clone-6bab8","resources":{"hostingSite":"stackup-clone-6bab8"},"state":"ACTIVE","etag":"1_a458283e-00e6-4cc5-b9ac-3d5c38202023"}
+[info] i  Using project stackup-clone-6bab8 (stackup-clone) 
+[info] 
+=== Hosting Setup
+[debug] [2023-11-20T12:48:02.559Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/stackup-clone-6bab8 [none]
+[debug] [2023-11-20T12:48:02.664Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/stackup-clone-6bab8 200
+[debug] [2023-11-20T12:48:02.664Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/stackup-clone-6bab8 {"projectId":"stackup-clone-6bab8","projectNumber":"937299308785","displayName":"stackup-clone","name":"projects/stackup-clone-6bab8","resources":{"hostingSite":"stackup-clone-6bab8"},"state":"ACTIVE","etag":"1_a458283e-00e6-4cc5-b9ac-3d5c38202023"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of build/404.html 
+[debug] [2023-11-20T12:48:16.808Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-11-20T12:48:16.826Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-11-20T12:48:16.826Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.6.0","browserURL":"https://www.gstatic.com/firebasejs/10.6.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.6.0/firebase.tgz"},"live":{"version":"10.6","browserURL":"https://www.gstatic.com/firebasejs/live/10.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.6.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.6.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.6.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.6.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.6.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.6.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.6.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Detected a .git folder at /workspace/stackup-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=432024499&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...

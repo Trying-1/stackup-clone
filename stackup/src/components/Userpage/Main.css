@@ -1,0 +1,127 @@
+.userpage-main {
+    width: 1135px;
+    background-color: #F8F5F5;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFBFB;
+    gap: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+
+}
+
+.greet-user {
+    margin-top: 20px;
+    height: 80px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: #1B9E77;
+    box-shadow: 2px 2px 5px gray;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.latest-update {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFBFB;
+    gap: 15px;
+    padding: 15px;
+}
+
+.title {
+    height: 80px;
+    width: 700px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #FB6A6F, #9068F0);
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.title:hover {
+    background: #FF5D64;
+}
+
+.rightside {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFBFB;
+    gap: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+}
+
+.discord {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    background-color: #FEFDFD;
+}
+
+.updates .list {
+    display: flex;
+    gap: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    position: relative;
+    padding-left: 20px;
+    /* Adjust as needed */
+    line-height: 1.5;
+    /* Adjust as needed */
+}
+
+.list li:nth-child(1)::before {
+    background-color: green;
+}
+
+.list li:nth-child(2)::before {
+    background-color: orange;
+}
+
+.list li:nth-child(3)::before {
+    background-color: blue;
+}
+
+.list li::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+    /* Adjust spacing between the circle and the content */
+}
