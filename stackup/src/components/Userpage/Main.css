@@ -1,15 +1,12 @@
 .userpage-main {
     width: 1135px;
     background-color: #F8F5F5;
-    display: flex;
+    display: grid;
     gap: 30px;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 0;
+    grid-template: 1fr/2fr 1fr;
 }
 
-.leftside {
+/* .leftside {
     display: flex;
     flex-direction: column;
     background-color: #FCFBFB;
@@ -18,7 +15,7 @@
     box-shadow: 2px 2px 5px gray;
     border-radius: 5px;
 
-}
+}  */
 
 .greet-user {
     margin-top: 20px;
@@ -95,9 +92,7 @@
 .list li {
     position: relative;
     padding-left: 20px;
-    /* Adjust as needed */
     line-height: 1.5;
-    /* Adjust as needed */
 }
 
 .list li:nth-child(1)::before {
@@ -123,5 +118,4 @@
     top: 50%;
     transform: translateY(-50%);
     margin-right: 10px;
-    /* Adjust spacing between the circle and the content */
 }

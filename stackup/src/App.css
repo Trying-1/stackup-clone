@@ -3,3 +3,12 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.bx-shd{
+  box-shadow: 1px 1px 3px gray;
+}
+.brs-5{
+  border-radius: 5px;
+}
+.brs-10{
+  border-radius: 10px;
+}

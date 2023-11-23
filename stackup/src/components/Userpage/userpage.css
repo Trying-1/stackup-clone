@@ -4,5 +4,6 @@
     box-sizing: border-box;
 }
 .userpage{
-   
+   display: grid;
+   grid-template: 1fr/ 1fr 4fr;
 }
