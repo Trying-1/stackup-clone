@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.cbdf4c43.css",
-    "main.js": "/your-repo-name/static/js/main.f54876e1.js",
-    "index.html": "/your-repo-name/index.html",
-    "main.cbdf4c43.css.map": "/your-repo-name/static/css/main.cbdf4c43.css.map",
-    "main.f54876e1.js.map": "/your-repo-name/static/js/main.f54876e1.js.map"
+    "main.css": "/stackup-clone/static/css/main.cbdf4c43.css",
+    "main.js": "/stackup-clone/static/js/main.f54876e1.js",
+    "index.html": "/stackup-clone/index.html",
+    "main.cbdf4c43.css.map": "/stackup-clone/static/css/main.cbdf4c43.css.map",
+    "main.f54876e1.js.map": "/stackup-clone/static/js/main.f54876e1.js.map"
   },
   "entrypoints": [
     "static/css/main.cbdf4c43.css",
