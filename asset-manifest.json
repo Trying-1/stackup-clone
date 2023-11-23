@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/stackup-clone/static/css/main.543bc546.css",
+    "main.css": "/stackup-clone/static/css/main.ca25a8b8.css",
     "main.js": "/stackup-clone/static/js/main.f54876e1.js",
     "index.html": "/stackup-clone/index.html",
-    "main.543bc546.css.map": "/stackup-clone/static/css/main.543bc546.css.map",
+    "main.ca25a8b8.css.map": "/stackup-clone/static/css/main.ca25a8b8.css.map",
     "main.f54876e1.js.map": "/stackup-clone/static/js/main.f54876e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.543bc546.css",
+    "static/css/main.ca25a8b8.css",
     "static/js/main.f54876e1.js"
   ]
 }
